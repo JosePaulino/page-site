@@ -1,193 +1,471 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
-  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">    
-  </script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
 
-<script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
 
+    <title>Alliance Amparo</title>
+  </head>
+  <body>
+    <header id="home">
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark  fixed-top">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img
+              src="src/img/logo-alliance-amparo2.png"
+              alt=" Alliance Amparo"
+            />
+          </a>
+        </div>
 
-  <title>Alliance Amparo</title>
-</head>
-<body>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <header>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-
-      <div class="navbar-brand">
-        <a href="index.html">
-          <img src="src/img/logo-alliance-amparo2.png" alt=" Alliance Amparo">
-        </a>        
-      </div>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-        <div id="mynav" class="collapse navbar-collapse justify-content-end">     
+        <div id="mynav" class="collapse navbar-collapse justify-content-end">
           <ul class="navbar-nav">
-            <li class="nav-item"><a href="#home" class="nav-link text-light" data-toggle="tab">Alliance</a></li>
-            <li class="nav-item"><a href="#modalidades" class="nav-link text-light" data-toggle="tab">Modalidades</a></li>
-            <li class="nav-item"><a href="#horarios" class="nav-link text-light" data-toggle="tab">Horários</a></li>
-            <li class="nav-item"><a href="#contato" class="nav-link text-light" data-toggle="tab">Contato</a></li>
-            <li class="btn btn-light">AULA EXPERIMENTAL GRATUITA</li>       
-          </ul>    
+            <li class="nav-item">
+              <a href="#home" class="nav-link text-light" data-toggle="tab"
+                >Alliance</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#modalidades"
+                class="nav-link text-light"
+                data-toggle="tab"
+                >Modalidades</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#horarios" class="nav-link text-light" data-toggle="tab"
+                >Horários</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contato" class="nav-link text-light" data-toggle="tab"
+                >Contato</a
+              >
+            </li>
+            <li class="btn btn-light">AULA EXPERIMENTAL GRATUITA</li>
+          </ul>
 
           <div class="navbar justify-content-center">
-            <a class="navbar p-2" href="https://www.instagram.com/allianceamparo">
-              <img src="src/img/icon-intagram.png" width="30" height="30" alt="">
+            <a
+              class="navbar p-2"
+              href="https://www.instagram.com/allianceamparo"
+            >
+              <img
+                src="src/img/icon-intagram.png"
+                width="30"
+                height="30"
+                alt=""
+              />
             </a>
-            <a class="navbar p-2" href="https://www.facebook.com/allianceamparo">
-              <img src="src/img/icon-facebook.png" width="30" height="30" alt="">
+            <a
+              class="navbar p-2"
+              href="https://www.facebook.com/allianceamparo"
+            >
+              <img
+                src="src/img/icon-facebook.png"
+                width="30"
+                height="30"
+                alt=""
+              />
             </a>
-            <a class="navbar p-2" href="https://www.youtube.com/channel/UCrMLv7mDOl613-Q0lcWXuCQ">
-              <img src="src/img/icon-youtube.png" width="30" height="30" alt="">
+            <a
+              class="navbar p-2"
+              href="https://www.youtube.com/channel/UCrMLv7mDOl613-Q0lcWXuCQ"
+            >
+              <img
+                src="src/img/icon-youtube.png"
+                width="30"
+                height="30"
+                alt=""
+              />
             </a>
-          </div>
-
-        </div>         
-    </nav>
-
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
-      <div class="carousel-indicators ">
-        <button style="background-color: #fff;" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button style="background-color: #fff;" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button style="background-color: #fff;" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="src/img/fundadores.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-md-block text-white-50">
-            <h5>Conheça os fundadores</h5>
-            <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="src/img/fundadores.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-md-block text-white-50">
-            <h5>Conheça os fundadores</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+      </nav>
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button
+            style="background-color: #fff"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            style="background-color: #fff"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            style="background-color: #fff"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="src/img/fundadores.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block text-white-50">
+              <h5>Conheça os fundadores</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="src/img/fundadores.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block text-white-50">
+              <h5>Conheça os fundadores</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="src/img/fundadores.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block text-white-50">
+              <h5>Conheça os fundadores</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="src/img/fundadores.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-md-block text-white-50">
-            <h5>Conheça os fundadores</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next text-danger"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <div style="background-color: #312f32">
+      <div class="mx-auto py-3" style="width: 450px">
+        <h3 class="d-flex" style="color: #f2cb13">
+          + DE 30 MIL ALUNOS NO MUNDO
+        </h3>
+      </div>
+      <div class="container d-flex justify-content-center">
+        <img class="img-fluid" src="src/img/mapa-2024.png" alt="" />
+      </div>
+    </div>
+
+    <div id="modalidades" style="background-color: #d2ced4" style="width: 900px">
+      <div class="container p-5">
+        <div  class="text-center mb-3">
+          <h2>Modalidades</h2>
+        </div>
+
+        <div class="container d-flex flex-column">
+          <div class="d-flex">
+            <img class="img-fluid p-2" src="src/img/card-kids.png" alt="" />
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis et voluptatum, <br> vel ab inventore deserunt maxime ducimus aliquam repudiandae blanditiis possimus doloribus iure similique corrupti qui earum quisquam explicabo ullam.</p>
+          </div>
+          <div class="d-flex">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis et voluptatum, <br>vel ab inventore deserunt maxime ducimus aliquam repudiandae blanditiis possimus doloribus iure similique corrupti qui earum quisquam explicabo ullam.</p>
+            <img class="img-fluid p-2" src="src/img/card-iniciante.png" alt="" />
+          </div>
+          <div class="d-flex">
+            <img class="img-fluid p-2" src="src/img/card-particular.png" alt="" />
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis et voluptatum, <br> vel ab inventore deserunt maxime ducimus aliquam repudiandae blanditiis possimus doloribus iure similique corrupti qui earum quisquam explicabo ullam.</p>
+          </div>
+          <div class="d-flex">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis et voluptatum, <br> vel ab inventore deserunt maxime ducimus aliquam repudiandae blanditiis possimus doloribus iure similique corrupti qui earum quisquam explicabo ullam.</p>
+            <img class="img-fluid p-2" src="src/img/card-avancado.png" alt="" />
           </div>
         </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next text-danger" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </header>
 
-  <div style="background-color:#312F32;">
-    <div  class="mx-auto py-3" style="width: 450px;">     
-       <h3 class=" d-flex" style="color:#F2CB13"> + DE 30 MIL ALUNOS NO MUNDO</h3>
-    </div>
-    <div class="container d-flex justify-content-center">
-      <img class="img-fluid" src="src/img/mapa-2024.png" alt="">
-    </div>
-  </div>
-
-  <div style="background-color:#d2ced4;" style="width: 900px;">
-    <div  class="container p-5" >
-      <div>
-        <h2>Modalidades</h2>
-      </div>
-      
-      <div class="container"  >
-        <img class="img-fluid p-2" src="src/img/card-kids.png" alt="">
-        <img class="img-fluid p-2" src="src/img/card-iniciante.png" alt="">
-        <img class="img-fluid p-2" src="src/img/card-particular.png" alt="">
-        <img class="img-fluid p-2" src="src/img/card-avancado.png" alt="">
-
-      </div>
-
-      <div>
-        <div>Iniciante</div>
-
-        <div>Kids</div>
-
-        <div>Aula particular</div>
-
-        <div>Avançado</div>
-      </div>
-    </div>
-  </div>
-  
-  <div style="background-color:#F2CB13;">
-    <div  class="container p-5" >
-      <div>
-        <h2>Horários</h2>
-      </div>      
-    </div>
-  </div>
-
-  <div style="background-color:#d2ced4;">
-    <div  class=" p-3" >
-      <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.438671148461!2d-46.77254882545627!3d-22.711931030934696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9213683e96167%3A0x162f79a13f5a5383!2sAlliance%20Amparo!5e0!3m2!1spt-BR!2sbr!4v1707398455845!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>      
-    </div>
-  </div>
-
-  <div style="background-color:#000000;">
-    <div  class="d-flex justify-content-center align text-center pt-3" >
-      <div class="text-white pt-4">
-        <h2>Contato</h2>
-        <p class="m-0">19 3938-7029</p>
-        <p class="m-0">contatoalliance@gmail.com</p>
-        <p>Rua Cabo João dos Santos - 173, Ribeirão -Amparo Sp </p>
-      </div>
-           
-
-      <div>
-        <img class="img-fluid " src="src/img/img-fd.png" alt="">             
-      </div>
-
-      <div class="pt-4">
-        <h2 class="text-white">Nossas redes </h2>
         <div>
-          <a class="p-3" href="https://www.instagram.com/allianceamparo/" target="_blank">
-            <img src="src/img/insta.png" width="30"  alt="" />
-          </a>          
-          <a class="p-3" href="https://www.facebook.com/allianceamparo" target="_blank">
-            <img src="src/img/face.png" width="30" class="" alt=""/>
-          </a>
-          <a class="p-3" href="https://www.youtube.com/channel/UCrMLv7mDOl613-Q0lcWXuCQ" target="_blank">
-            <img src="src/img/yout.png" width="30" class="" alt=""/>
-          </a>
+        
         </div>
       </div>
     </div>
-  </div>
 
-  
+    <div id="horarios">
+      <div class="container p-5">
+        <div style="background-color: #f2cb13" class="d-flex justify-content-between">
+          <img
+            src="./src/img/logo-alliance-amparo2.png"
+            alt="imagem logo academia"
+            style="background-color: #000000"
+          />
+          <h2>Grade de Horários</h2>
+          <p>
+            KIDS / JUVENIL / ADULTO / <br />
+            INICIANTE / INTERMEDIÁRIO / AVANÇADO
+          </p>
+        </div>
+        <div class="bg-dar">
+          <table class="table table-strip">
+            <thead>
+              <tr>
+                <th></th>
+                <th>2ª FEIRA</th>
+                <th>3ª FEIRA</th>
+                <th>4ª FEIRA</th>
+                <th>5ª FEIRA</th>
+                <th>6ª FEIRA</th>
+                <th>SABÁDO</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th style="background-color: #f2cb13">7:00</th>
+                <td>INIC / INTER</td>
+                <td></td>
+                <td>INIC / INTER</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th style="background-color: #f2cb13">8:30</th>
+                <td></td>
+                <td class="text-success">KIDS</td>
+                <td></td>
+                <td class="text-success">KIDS</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th style="background-color: #f2cb13">9:00</th>
+                <td></td>
+                <td>INICIANTE</td>
+                <td></td>
+                <td>INICIANTE</td>
+                <td></td>
+                <td>INICIANTE</td>
+              </tr>
+              <tr>
+                <th style="background-color: #f2cb13">10:00</th>
+                <td class="text-danger">AVANÇADO</td>
+                <td class="text-danger">AVANÇADO</td>
+                <td class="text-danger">AVANÇADO</td>
+                <td class="text-danger">AVANÇADO</td>
+                <td class="text-info">
+                  NO GI <br />
+                  INTERMEDIÁRIO
+                </td>
+                <td class="text-info">INTERMEDIÁRIO</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th style="background-color: #f2cb13">17:30</th>
+                <td>
+                  INIC / INTER
+                  <br />
+                  <span class="text-danger">KIDS COMPETIÇÃO</span>
+                </td>
+                <td class="text-danger">
+                  DRILL DE <br />
+                  COMPETIÇÃO
+                </td>
+                <td>
+                  INIC / INTER <br />
+                  <span class="text-danger">KIDS COMPETIÇÃO</span>
+                </td>
+                <td class="text-danger">
+                  DRILL DE <br />
+                  COMPETIÇÃO
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th style="background-color: #f2cb13">18:30</th>
+                <td>
+                  <span class="text-success">KIDS I</span>
+                  <br />
+                  KIDS II
+                </td>
+                <td>
+                  INIC / INTER <br />
+                  <span class="text-success">KIDS II</span>
+                </td>
+                <td>
+                  <span class="text-success">KIDS I</span> <br />
+                  KIDS II
+                </td>
+                <td>
+                  INIC / INTER<br />
+                  <span class="text-success">KIDS II</span>
+                </td>
+                <td>INICIANTE</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th style="background-color: #f2cb13">19:30</th>
+                <td>
+                  AVANÇADO
 
-  
-    
+                  <br />
+                  INIC / INTER
+                </td>
+                <td>
+                  <span class="text-danger">AVANÇADO</span>
+                  <br />
+                  <span class="text-warning">JUVENIL</span>
+                </td>
+                <td>
+                  <span class="text-danger">AVANÇADO</span>
+                  <br />
+                  INIC / INTER
+                </td>
+                <td>
+                  <span class="text-danger">AVANÇADO</span>
+                  <br />
 
+                  <span class="text-warning">JUVENIL</span>
+                </td>
+                <td class="text-info">
+                  NO GI <br />
+                  INTERMEDIÁRIO
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <th style="background-color: #f2cb13">20:30</th>
+                <td></td>
+                <td>
+                  NO GI <br />
+                  INTERMEDIÁRIO
+                </td>
+                <td></td>
+                <td>
+                  NO GI <br />
+                  INTERMEDIÁRIO
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
 
+    <div style="background-color: #d2ced4">
+      <div class="p-3">
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.438671148461!2d-46.77254882545627!3d-22.711931030934696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9213683e96167%3A0x162f79a13f5a5383!2sAlliance%20Amparo!5e0!3m2!1spt-BR!2sbr!4v1707398455845!5m2!1spt-BR!2sbr"
+            width="100%"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
 
+    <div style="background-color: #000000">
+      <div class="d-flex justify-content-center align text-center pt-3">
+        <div class="text-white pt-4" id="contato">
+          <h2>Contato</h2>
+          <p class="m-0">19 3938-7029</p>
+          <p class="m-0">contatoalliance@gmail.com</p>
+          <p>Rua Cabo João dos Santos - 173, Ribeirão -Amparo Sp</p>
+        </div>
 
+        <div>
+          <img class="img-fluid" src="src/img/img-fd.png" alt="" />
+        </div>
 
- 
- 
-
-  
-</body>
+        <div class="pt-4">
+          <h2 class="text-white">Nossas redes</h2>
+          <div>
+            <a
+              class="p-3"
+              href="https://www.instagram.com/allianceamparo/"
+              target="_blank"
+            >
+              <img src="src/img/insta.png" width="30" alt="" />
+            </a>
+            <a
+              class="p-3"
+              href="https://www.facebook.com/allianceamparo"
+              target="_blank"
+            >
+              <img src="src/img/face.png" width="30" class="" alt="" />
+            </a>
+            <a
+              class="p-3"
+              href="https://www.youtube.com/channel/UCrMLv7mDOl613-Q0lcWXuCQ"
+              target="_blank"
+            >
+              <img src="src/img/yout.png" width="30" class="" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
