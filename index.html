@@ -30,7 +30,14 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
-
+<!-- media query -->
+    <style>
+      #imgResponsive{
+        @media(min-width: 778px){
+            float: right;
+        }
+      }
+    </style>
     <title>Alliance Amparo</title>
   </head>
   <body style="margin-top: 5em;">
@@ -221,25 +228,48 @@
         </div>
 
         <div class="container d-flex flex-column container-fluid">
-          <div class="d-flex flex-row flex-md-col">
-            <img class="img-fluid p-2" src="src/img/card-kids.png" alt="" />
-            <p style="text-indent: 1em;" class="p-3 text-wrap line-height-3">Nosso modulo especial foi estudado carinhosamente para garantir que cada criança possa exercitar suas habilidades em um ambiente seguro, com alta concentração, autoestima e disciplina. O Jiu Jitsu é uma ferramenta incrível para a evolução de uma criança; focamos no físico, mental e na saúde emocional durante os exercícios para que todos possam aproveitar.
+          <div class="d-flex row flex-row flex-md-col" id="imgResponsive">
+            <div class="col-sm-6 order-sm-1">
+
+
+            <img class="img-fluid p-2 col-sm-6" src="src/img/card-kids.png" alt="" />
+            </div>
+            <div class="col-sm-6 order-sm-2">
+
+            <p style="text-indent: 1em;" class="p-3 text-wrap line-height-3 col-sm-6">Nosso modulo especial foi estudado carinhosamente para garantir que cada criança possa exercitar suas habilidades em um ambiente seguro, com alta concentração, autoestima e disciplina. O Jiu Jitsu é uma ferramenta incrível para a evolução de uma criança; focamos no físico, mental e na saúde emocional durante os exercícios para que todos possam aproveitar.
             </p>
-          </div>
-          <div class="d-flex flex-row flex-md-col">
-            <p style="text-indent: 1em;" class="p-3 text-wrap line-height-3">Nosso objetivo é deixar sua entrada no Jiu Jitsu fácil para que você aproveite toda aula. Nossas aulas iniciantes foram criadas para que você tenha uma base antes de avançar para os próximos módulos.</p>
-            <img class="img-fluid p-2" src="src/img/card-iniciante.png" alt="" />
+            </div>
+        </div>
+
+          <div  class="d-flex row flex-row flex-md-col">
+            <div class="col-sm-6 order-sm-2">
+              
+            <p style="text-indent: 1em;" class="p-3 text-wrap line-height-3 col-sm-6">Nosso objetivo é deixar sua entrada no Jiu Jitsu fácil para que você aproveite toda aula. Nossas aulas iniciantes foram criadas para que você tenha uma base antes de avançar para os próximos módulos.</p>
+            </div>
+            <div class="col-sm-6 order-sm-1">
+              <img class="img-fluid p-2" src="src/img/card-iniciante.png" alt="" />
+            </div>
+            </div>
+          <div class="d-flex row flex-row flex-md-col" id="imgResponsive">
+            <div class="col-sm-6 order-sm-1">
             
-          </div>
-          <div class="d-flex  flex-row flex-md-col">
-            
-            <img class="img-fluid p-2" src="src/img/card-particular.png" alt="" />
-            <p style="text-indent: 1em;" class="p-3 text-wrap line-height-3">Nosso serviço VIP, com aulas especialmente montadas para suas necessidades. Na aula particular você encontrará a aula perfeita para você, seja qual for seu objetivo dentro do esporte.
+            <img class="img-fluid p-2 col-sm-6" src="src/img/card-particular.png" alt="" />
+            </div>
+            <div class="col-sm-6 order-sm-2">
+
+            <p style="text-indent: 1em;" class="p-3 text-wrap line-height-3 col-sm-6">Nosso serviço VIP, com aulas especialmente montadas para suas necessidades. Na aula particular você encontrará a aula perfeita para você, seja qual for seu objetivo dentro do esporte.
             </p>
+            </div>
           </div>
-          <div class="d-flex flex-row flex-md-col">
-            <p style="text-indent: 1em;" class="p-3 text-wrap line-height-3">Aprendiz de alguns dos melhores coaches no mundo, nesse modulo vamos conhecer múltiplas combinações de movimentos e posições, assim você aprenderá aplicar as técnicas mais avançadas no seu Jiu Jitsu.</p>
-            <img class="img-fluid p-2" src="src/img/card-avancado.png" alt="" />
+          <div class="d-flex row flex-row flex-md-col" id="imgResponsive">
+            <div class="col-sm-6 order-sm-2">
+
+              <p style="text-indent: 1em;" class="p-3 text-wrap line-height-3 col-sm-6">Aprendiz de alguns dos melhores coaches no mundo, nesse modulo vamos conhecer múltiplas combinações de movimentos e posições, assim você aprenderá aplicar as técnicas mais avançadas no seu Jiu Jitsu.</p>
+            </div>
+            <div class="col-sm-6 order-sm-1">
+
+              <img class="img-fluid p-2 col-sm-6" src="src/img/card-avancado.png" alt="" />
+            </div>
           </div>
         </div>
 
