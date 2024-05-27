@@ -48,10 +48,15 @@
     box-sizing: border-box;
     margin-top: 30px;
   }
+  .rotated-table {
+      transform: rotate(90deg);
+      transform-origin: left top;
+  }
 </style>
     <title>Alliance Amparo</title>
   </head>
-  <body style="margin-top: 5em;">
+  <body style="margin-top: 5em;" class="w-100
+  ">
     <header id="home">
       <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
         <div class="navbar-brand">
@@ -287,6 +292,7 @@
     </div>
 
     <div id="horarios" class="table-responsive">
+      <button id="toggleButton" class="btn btn-primary mb-3">Alternar Sentido</button>
       <div class="container p-5">
         <div style="background-color: #f2cb13" class="d-flex justify-content-between flex-row flex-md-col">
           <img      
@@ -303,7 +309,7 @@
           </p>
         </div>
         <div >
-          <table class="table table-striped ">
+          <table id="scheduleTable" class="table table-striped">
             <thead>
               <tr>
                 <th></th>
@@ -529,5 +535,10 @@
         $(this).find('.image-caption').toggle();
       });
     });
+    document.getElementById('toggleButton').addEventListener('click', function() {
+      var table = document.getElementById('scheduleTable');
+      table.classList.toggle('rotated-table');
+    });
+  
   </script>
 </html>
